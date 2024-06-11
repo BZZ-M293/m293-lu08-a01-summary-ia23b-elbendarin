@@ -3,19 +3,222 @@
 <head>
   <meta charset="UTF-8">
   <title>Zusammenfassung Modul 293</title>
-
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #f4f4f4;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    section {
+      padding: 1em;
+    }
+    code {
+      background-color: #f4f4f4;
+      padding: 0.2em;
+      display: block;
+      margin-top: 0.5em;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    
-  </header>
-  <nav>
-    
-  </nav>
-  <h1>Zusammenfassung Modul 293</h1>
 
-  <footer>
-    
-  </footer>
+<header>
+  <h1>Zusammenfassung Modul 293</h1>
+</header>
+
+<nav>
+  <a href="#lu1">Learning Unit 1</a>
+  <a href="#lu2">Learning Unit 2</a>
+  <a href="#lu3">Learning Unit 3</a>
+  <a href="#lu4">Learning Unit 4</a>
+  <a href="#lu5">Learning Unit 5</a>
+  <a href="#lu6">Learning Unit 6</a>
+  <a href="#lu7">Learning Unit 7</a>
+  <a href="#lu8">Learning Unit 8</a>
+</nav>
+
+<main>
+  <section id="lu1">
+    <h2>Learning Unit 1: HTML Grundlagen</h2>
+    <p>Kurz, stichwortartige Zusammenfassung:</p>
+    <ul>
+      <li>HTML = HyperText Markup Language</li>
+      <li>Grundstruktur einer HTML-Seite</li>
+      <li>Wichtige Tags: <code>&lt;html&gt;, &lt;head&gt;, &lt;body&gt;</code></li>
+    </ul>
+    <p>Code-Beispiel:</p>
+    <code>
+      &lt;!DOCTYPE html&gt;<br>
+      &lt;html lang="de"&gt;<br>
+      &lt;head&gt;<br>
+      &lt;meta charset="UTF-8"&gt;<br>
+      &lt;title&gt;Beispielseite&lt;/title&gt;<br>
+      &lt;/head&gt;<br>
+      &lt;body&gt;<br>
+      &lt;h1&gt;Hallo Welt&lt;/h1&gt;<br>
+      &lt;/body&gt;<br>
+      &lt;/html&gt;
+    </code>
+  </section>
+
+  <section id="lu2">
+    <h2>Learning Unit 2: CSS Grundlagen</h2>
+    <p>Kurz, stichwortartige Zusammenfassung:</p>
+    <ul>
+      <li>CSS = Cascading Style Sheets</li>
+      <li>Styling von HTML-Elementen</li>
+      <li>Wichtige Konzepte: Selektoren, Eigenschaften, Werte</li>
+    </ul>
+    <p>Code-Beispiel:</p>
+    <code>
+      &lt;style&gt;<br>
+      body { background-color: lightblue; }<br>
+      h1 { color: navy; text-align: center; }<br>
+      &lt;/style&gt;
+    </code>
+  </section>
+
+  <section id="lu3">
+    <h2>Learning Unit 3: JavaScript Grundlagen</h2>
+    <p>Kurz, stichwortartige Zusammenfassung:</p>
+    <ul>
+      <li>JavaScript = Programmiersprache für das Web</li>
+      <li>Interaktive Funktionen und dynamische Inhalte</li>
+      <li>Grundsätze: Variablen, Funktionen, Events</li>
+    </ul>
+    <p>Code-Beispiel:</p>
+    <code>
+      &lt;script&gt;<br>
+      function begruessen() {<br>
+      alert('Hallo, Welt!');<br>
+      }<br>
+      &lt;/script&gt;<br>
+      &lt;button onclick="begruessen()"&gt;Klick mich&lt;/button&gt;
+    </code>
+  </section>
+
+  <section id="lu4">
+    <h2>Learning Unit 4: HTML-Formulare</h2>
+    <p>Kurz, stichwortartige Zusammenfassung:</p>
+    <ul>
+      <li>Formulareingaben vom Benutzer sammeln</li>
+      <li>Wichtige Tags: <code>&lt;form&gt;, &lt;input&gt;, &lt;button&gt;</code></li>
+      <li>Formularmethoden: GET und POST</li>
+    </ul>
+    <p>Code-Beispiel:</p>
+    <code>
+      &lt;form action="/submit" method="post"&gt;<br>
+      &lt;label for="name"&gt;Name:&lt;/label&gt;<br>
+      &lt;input type="text" id="name" name="name"&gt;<br>
+      &lt;button type="submit"&gt;Absenden&lt;/button&gt;<br>
+      &lt;/form&gt;
+    </code>
+  </section>
+
+  <section id="lu5">
+    <h2>Learning Unit 5: CSS-Layout</h2>
+    <p>Kurz, stichwortartige Zusammenfassung:</p>
+    <ul>
+      <li>Layouts mit CSS erstellen</li>
+      <li>Wichtige Techniken: Flexbox, Grid</li>
+      <li>Responsive Design</li>
+    </ul>
+    <p>Code-Beispiel:</p>
+    <code>
+      &lt;style&gt;<br>
+      .container { display: flex; }<br>
+      .item { flex: 1; }<br>
+      &lt;/style&gt;<br>
+      &lt;div class="container"&gt;<br>
+      &lt;div class="item"&gt;Item 1&lt;/div&gt;<br>
+      &lt;div class="item"&gt;Item 2&lt;/div&gt;<br>
+      &lt;/div&gt;
+    </code>
+  </section>
+
+  <section id="lu6">
+    <h2>Learning Unit 6: Erweiterte JavaScript-Konzepte</h2>
+    <p>Kurz, stichwortartige Zusammenfassung:</p>
+    <ul>
+      <li>Asynchrone Programmierung</li>
+      <li>Promises, Async/Await</li>
+      <li>APIs und Fetch</li>
+    </ul>
+    <p>Code-Beispiel:</p>
+    <code>
+      &lt;script&gt;<br>
+      async function fetchData() {<br>
+      let response = await fetch('https://api.example.com/data');<br>
+      let data = await response.json();<br>
+      console.log(data);<br>
+      }<br>
+      fetchData();<br>
+      &lt;/script&gt;
+    </code>
+  </section>
+
+  <section id="lu7">
+    <h2>Learning Unit 7: Web Storage</h2>
+    <p>Kurz, stichwortartige Zusammenfassung:</p>
+    <ul>
+      <li>Speichern von Daten im Browser</li>
+      <li>LocalStorage, SessionStorage</li>
+      <li>Anwendungsbeispiele</li>
+    </ul>
+    <p>Code-Beispiel:</p>
+    <code>
+      &lt;script&gt;<br>
+      localStorage.setItem('username', 'JohnDoe');<br>
+      let user = localStorage.getItem('username');<br>
+      console.log(user);<br>
+      &lt;/script&gt;
+    </code>
+  </section>
+
+  <section id="lu8">
+    <h2>Learning Unit 8: Einführung in Frameworks</h2>
+    <p>Kurz, stichwortartige Zusammenfassung:</p>
+    <ul>
+      <li>Verwendung von JavaScript-Frameworks</li>
+      <li>Beliebte Frameworks: React, Angular, Vue</li>
+      <li>Grundlegende Konzepte</li>
+    </ul>
+    <p>Code-Beispiel (React):</p>
+    <code>
+      &lt;script type="text/babel"&gt;<br>
+      function App() {<br>
+      return &lt;h1&gt;Hallo, Welt!&lt;/h1&gt;;<br>
+      }<br>
+      ReactDOM.render(&lt;App /&gt;, document.getElementById('root'));<br>
+      &lt;/script&gt;
+    </code>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 Zusammenfassung Modul 293</p>
+</footer>
+
 </body>
 </html>
